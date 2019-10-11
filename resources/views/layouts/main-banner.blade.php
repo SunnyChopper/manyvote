@@ -4,10 +4,10 @@
     <div class="container align-center">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-12">
-                <h1 class="mbr-section-title mbr-bold display-1 pb-3"><span style="font-weight: normal;">Your Local Government Simplified.</span></h1>
+                <h1 class="mbr-section-title mbr-bold display-1 pb-3"><span style="font-weight: normal;">Local Government Simplified</span></h1>
                 
-                <p class="mbr-text pb-3 mbr-fonts-style display-5">Our mission is to help local citizens better connect with their local government. Easy-to-read summaries of proposed bills. Hold local politicians accountable. Have a say in the vote.</p>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="#">Register Today</a></div>
+                <p class="mbr-text pb-3 mbr-fonts-style display-5">Our mission is to help local citizens be more involved in local political issues. Easy-to-read summaries of proposed bills. Hold your local politicians accountable. Have a say in the vote.</p>
+                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="{{ url('/demo') }}">View Demo</a></div>
             </div>
         </div>
     </div>

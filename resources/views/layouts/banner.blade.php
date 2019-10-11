@@ -6,9 +6,9 @@
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
                 @if(isset($page_header))
-                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">{{ $page_header }}</h2>
+                <h2 class="align-center mbr-bold mbr-white mt-16 mbr-fonts-style display-2">{{ $page_header }}</h2>
                 @elseif(isset($page_title))
-                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">{{ $page_title }}</h2>
+                <h2 class="align-center mbr-bold mbr-white mt-16 mbr-fonts-style display-2">{{ $page_title }}</h2>
                 @endif
             </div>
         </div>

@@ -11,11 +11,17 @@
 |
 */
 
+Auth::routes();
 Route::get('/', 'PagesController@index');
+Route::get('/demo', 'PagesController@demo');
 
 // Admin functions
 Route::get('/admin', 'AdminController@index');
 Route::post('/admin/login/attempt', 'AdminController@login');
-Auth::routes();
+Route::get('/admin/dashboard', 'AdminController@dashboard');
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Bills functions
+Route::get('/admin/bills', 'BillsController@admin_view');
+
+// Reps functions
+Route::get('/admin/reps', 'RepsController@admin_view');

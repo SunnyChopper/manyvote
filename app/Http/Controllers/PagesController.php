@@ -15,4 +15,10 @@ class PagesController extends Controller
 		return view('pages.index')->with('page_title', $page_title);
 	}
 
+	public function demo() {
+		$page_title = "Demo";
+
+		return view('pages.demo')->with('page_title', $page_title);
+	}
+
 }

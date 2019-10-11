@@ -5,7 +5,7 @@
 <div class="container pb-64">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card" style="background: white;">
+            <div class="card" style="border: 2px solid #EAEAEA;">
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">

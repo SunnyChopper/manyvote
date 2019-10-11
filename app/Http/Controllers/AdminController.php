@@ -30,4 +30,14 @@ class AdminController extends Controller
         }
 	}
 
+	public function dashboard() {
+		// if (AdminHelper::isAuthorized() == false) {
+		// 	return redirect(url('/admin'));
+		// }
+
+		$page_title = "Admin Dashboard";
+
+		return view('admin.dashboard')->with('page_title', $page_title);
+	}
+
 }
